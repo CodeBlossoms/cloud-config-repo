@@ -5,6 +5,9 @@ server:
 message:
   greeting: hello from the configuration!
  
+eureka:
+  instance:
+    hostname: config-client-override
 spring:
   application:
     name: xyz
