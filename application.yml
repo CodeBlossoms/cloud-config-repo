@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    hostname: config-client
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+      
