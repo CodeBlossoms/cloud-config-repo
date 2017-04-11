@@ -4,10 +4,3 @@ server:
   port: 8008
 message:
   greeting: hello from the configuration!
- 
-eureka:
-  instance:
-    hostname: config-client-override
-spring:
-  application:
-    name: xyz
