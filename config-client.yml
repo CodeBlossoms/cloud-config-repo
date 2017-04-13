@@ -1,6 +1,6 @@
 configuration:  
-  projectName: config-client-master
+  projectName: config-client-master!refreshed!
 server:
   port: 8008
 message:
-  greeting: hello from the configuration!
+  greeting: hello from the configuration!refreshed!
