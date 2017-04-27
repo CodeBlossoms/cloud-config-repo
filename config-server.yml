@@ -53,15 +53,12 @@ spring:
           uri: https://github.com/CodeBlossoms/cloud-config-repo
   
 server:
-  port: 9999
+  port: 8585
 
 eureka:
   instance:
-    leaseRenewalIntervalInSeconds: 1
-    leaseExpirationDurationInSeconds: 2
-    hostname: ${vcap.application.uris[0]}
-  client:
-    register-with-eureka: true
+    hostname: config-server-cloud
+  client: 
     fetch-registry: true
     serviceUrl:
       defaultZone: ${vcap.services.eureka-server.credentials.url}
