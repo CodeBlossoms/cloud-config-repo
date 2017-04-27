@@ -65,3 +65,12 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: ${vcap.services.eureka-server.credentials.url}
+      
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    enabled: true   
+    sensitive: false
