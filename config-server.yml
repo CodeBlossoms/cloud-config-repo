@@ -53,7 +53,7 @@ spring:
           uri: https://github.com/CodeBlossoms/cloud-config-repo
   
 server:
-  port: 8085
+  port: 8080
 
 eureka:
   instance:
