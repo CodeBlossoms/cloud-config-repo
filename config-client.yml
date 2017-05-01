@@ -1,6 +1,6 @@
 configuration:  
-  projectName: config-client-master!refreshed!one more tym!one last tym!
+  projectName: config-client-master!refreshed!one more tym!one last tym! one more!!
 server:
   port: 8008
 message:
-  greeting: hello from the configuration!refreshed!
+  greeting: hello from the configuration!refreshed! CF!!
